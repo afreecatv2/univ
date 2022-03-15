@@ -114,12 +114,6 @@ function bjImgUrl(bj){
 	}
 }
 
-//document.body.style.backgroundPosition = 'fixed';
-document.body.style.background = '#040404 url("img/calmsung_bg' + (Math.floor(Math.random() * 5) + 1) + '.jpg") top right no-repeat';
- document.body.style.backgroundSize = 'cover';
- document.body.style.backgroundAttachment = 'fixed';
- //document.body.style.zIndex = '-1';
-
 async function pageview() {
 	 await fetch("/etc/pageview.php?url=" + 'univ-' + window.location.pathname);
 }
