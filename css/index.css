@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 .thumb_container{
 	position:absolute;
@@ -39,4 +38,10 @@
 }
 .off_div:hover .tier-thumb{
 	display: block;
+}
+
+.img_container{
+}
+.img_logo{
+	width:200px;
 }
