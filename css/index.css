@@ -1,6 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
-
+.thumb_container{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	margin: 0 auto;
+	pointer-events: none;
+	z-index:4;
+}
 .tier-thumb{
 	display: none;
 	/* width:480px;
@@ -12,6 +23,7 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border: 0.1em solid white;
+	pointer-events: none;
 }
 .off_image{
 	position: absolute;
@@ -22,11 +34,7 @@
 	cursor: pointer;
 }
 .off_div:hover + img{
-	/* transition: opacity 1s; */
-	opacity: 0;
-}
-.off_div:hover + img{
-	/* transition: opacity 1s; */
+	transition: opacity 1s;
 	opacity: 0;
 }
 .off_div:hover .tier-thumb{
