@@ -1,7 +1,5 @@
 document.body.style.background = '';
-
-
-
+var n2 = 'v.aen';
 function getBJ2(m){
 	for(var i=0;i<bj_list.length;i++){
 		if(bj_list[i][0].indexOf(m)>-1){
@@ -9,41 +7,18 @@ function getBJ2(m){
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-if( ! window.location.hostname.startsWith('www.aengji.com') &&  ! window.location.hostname.startsWith('aengji.com') &&  ! window.location.hostname.startsWith('afreecatv.dothome.co.kr') && ! window.location.hostname.startsWith('afreecatv.byethost3.com')){
-	throw '';
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+var n1 = 'ni';
 var url = 'http://aengji.dothome.co.kr/afreecatv/select_cctv.php';
 var ts = 0;
+var n3 = 'gj';
 var onair_list = [];
-
 getDataAsync(url).then(data => {
+	log(n1+n2+n3);
+	
+	if( window.location.hostname.indexOf(n1+n2+n3) < 0 ){
+		return;
+	}
+
 	onair_list = data;
 	displayGame(onair_list);
 });
