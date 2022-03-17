@@ -19,7 +19,7 @@
 	width:720px;
 	height:405px;
     position: absolute;
-	top: 45%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border: 0.1em solid white;
@@ -41,7 +41,7 @@
 	width:720px;
 	height:405px;
     position: absolute;
-	top: 45%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	pointer-events: none;
