@@ -12,20 +12,22 @@
 	pointer-events: none;
 	z-index:4;
 }
+
 .tier-thumb{
 	display: none;
 	/* width:480px;
 	height:270px; */
-	width:960px;
-	height:540px;
+	width:720px;
+	height:405px;
     position: absolute;
-	top: 45%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border: 0.1em solid white;
 	z-index:4;
 	pointer-events: none;
 }
+
 .off_image{
 	position: absolute;
 	cursor: pointer;
@@ -38,10 +40,10 @@
 	display: none;
 	/* width:480px;
 	height:270px; */
-	width:960px;
-	height:540px;
+	width:720px;
+	height:405px;
     position: absolute;
-	top: 45%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	pointer-events: none;
